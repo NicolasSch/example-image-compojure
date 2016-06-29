@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: image-compojure:1.0.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/image-compojure/image-compojure/1.0.0/image-compojure-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

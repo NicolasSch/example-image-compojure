@@ -67,7 +67,7 @@
                                                                                                                 :fill      true})))
       (image-compojure/image 0 0 (image-compojure/load-image "src/test.png"))
 
-      (image-compojure/with-attributes {:paint :bacl}
+      (image-compojure/with-attributes {:paint :black}
                                        (image-compojure/oval 0 0 500 500 {:paint :blue :fill true})
                                        (image-compojure/oval 0 0 500 500))
 
@@ -198,4 +198,5 @@
   (image-compojure/render (image-compojure/compose 600 600 {:antialiasing :on}
                                                    (with-attributes-example)))
   (image-compojure/render (image-compojure/compose 1000 1000 {:antialiasing :on}
-                                                   (image-example))))
+                                                   (image-example)))
+  (example))
